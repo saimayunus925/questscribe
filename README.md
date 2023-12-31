@@ -37,7 +37,40 @@ represent the various objects and entities in the game.
 
 ##### 1.2.2 Inclusions:
 
-{features/classes/etc to be included}
+* ###### **CHARACTER** class
+  * **Attributes**
+    * Name (string): The name of the character. 
+    * Personality (*Personality* object): The personality traits of the character, represented by a *Personality* object.
+    * Level (int): The level or experience of the character. 
+    * Health Points (HP) - int: Represents the character's health or life. 
+    * Mana (or Energy) Points - int: Represents the character's magical or special abilities. 
+    * Attack Damage (int): The amount of damage the character deals. 
+    * Defense (int): The ability to resist or reduce incoming damage.
+    * Inventory (linked list of *Item* objects): List of items the character is carrying. 
+    * Skills/Abilities (linked list of *Ability* objects): List of abilities the character can use.
+  * **Methods**
+* ###### **PERSONALITY** class (based on the Big 5 methodology for determining personalities)
+  * **Attributes** (source: the previous Psychology Today link)
+    * Openness score (int): a 0-10 score reflecting how open to new ideas/experiences the character is 
+      * openness (to experience): a basic personality trait denoting receptivity to new ideas and new experiences
+    * Conscientiousness score (int): a 0-10 score reflecting how hardworking, responsible, structured, etc the character is
+      * conscientiousness: a fundamental personality trait—one of the Big Five—that reflects the tendency to be responsible, organized, hard-working, goal-directed, and to adhere to norms and rules
+    * Extroversion score (int): a 0-10 score reflecting how extroverted/introverted the character is (score below 5 == introverted, score above 5 == extroverted) 
+      * extroversion: a personality trait typically characterized by outgoingness, high energy, and/or talkativeness
+        * extroverts: recharge from being with others
+        * introverts: recharge from being alone
+        * ambiverts: recharge both ways
+    * Agreeableness score (int): a 0-10 score reflecting how kind, compassionate, empathetic, and polite the character is
+      * agreeableness: a personality trait that can be described as cooperative, polite, kind, and friendly
+    * Neuroticism score (int): a 0-10 score reflecting how neurotic (depressed, anxious, self-doubting, etc) the character is 
+      * neuroticism: a tendency toward anxiety, depression, self-doubt, and other negative feelings
+  * **Methods**
+* ###### **GAMEITEM** class
+  * **Attributes**
+  * **Methods**
+* ###### **COMBATMOVE** class
+  * **Attributes**
+  * **Methods**
 
 ### 2. Functional Requirements
 
