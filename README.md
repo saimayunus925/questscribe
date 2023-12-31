@@ -10,7 +10,8 @@
 is a text-based command-line adventure game, written in C++. The game is to have complex memorable characters and a realistic yet 
 exciting storyline. The software will have C++ classes for characters, combat moves, character personalities, items, and more. The
 game will have a "choose your own adventure" element, where users' choices within the game will change the story, allowing more
-replay value.
+replay value. The characters will also change in response to significant plot points in the game story. This game will combine two of
+my primary interests - creative writing and C++ programming.
 
 #### 1.2 Scope
 Define the scope of the project, including the features and functionalities that are within and outside the project's boundaries.
