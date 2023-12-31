@@ -30,6 +30,15 @@ The different character types - Hero, Villain, Antihero, Warrior, Scribe, etc - 
 Character base class. As for the Personality class, its private member variables will be scores for each of the Big 5 traits,
 which will change based on the events of the game (e.g. if a character becomes more rigid/inflexible, their openness score decreases).
 
+##### 1.2.1 Objective
+
+The primary goal of this project is to develop an object-oriented text-based adventure game, written in C++, with classes to 
+represent the various objects and entities in the game.
+
+##### 1.2.2 Inclusions:
+
+{features/classes/etc to be included}
+
 ### 2. Functional Requirements
 
 #### 2.1 Use Cases
