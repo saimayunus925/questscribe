@@ -40,7 +40,7 @@ represent the various objects and entities in the game.
 * ###### **CHARACTER** class
   * **Attributes**
     * Name (string): The name of the character. 
-    * Personality (*PersonalityTraits* object): The personality traits of the character, represented by a *Personality* object.
+    * Personality (*PersonalityTraits* object): The personality traits of the character, represented by a *PersonalityTraits* object.
     * Level (int): The level or experience of the character. 
     * Health Points (HP) - int: Represents the character's health or life. 
     * Mana (or Energy) Points - int: Represents the character's magical or special abilities. 
