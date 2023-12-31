@@ -34,6 +34,12 @@ class PersonalityTraits {
         void decrement_agreeableness_score(); // decrement agreeableness score by 1
         void increment_neuroticism_score(); // increment neuroticism score by 1
         void decrement_neuroticism_score(); // decrement neuroticism score by 1
+        /* getter/accessor functions */
+        int get_openness_score(); // returns current openness score
+        int get_conscientiousness_score(); // returns current conscientiousness score
+        int get_extroversion_score(); // returns current extroversion score
+        int get_agreeableness_score(); // returns current agreeableness score
+        int get_neuroticism_score(); // returns current neuroticism score
 };
 
 
