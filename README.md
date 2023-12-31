@@ -5,7 +5,12 @@
 ### 1. Introduction
 
 #### 1.1 Purpose
-State the purpose of this document and provide an overview of the software to be developed.
+*State the purpose of this document and provide an overview of the software to be developed.*
+  The purpose of this document is to be a comprehensive overview of the requirements of this project. The software to be developed 
+is a text-based command-line adventure game, written in C++. The game is to have complex memorable characters and a realistic yet 
+exciting storyline. The software will have C++ classes for characters, combat moves, character personalities, items, and more. The
+game will have a "choose your own adventure" element, where users' choices within the game will change the story, allowing more
+replay value.
 
 #### 1.2 Scope
 Define the scope of the project, including the features and functionalities that are within and outside the project's boundaries.
