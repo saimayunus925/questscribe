@@ -93,8 +93,8 @@ represent the various objects and entities in the game.
   * **Attributes**
     * Name (string): The name of the item. 
     * Description (string): A brief description of the item's purpose or effects. 
-    * Type (enum or string): Categorization of the item (e.g., weapon, armor, consumable). 
-    * Rarity (enum or string): The rarity level of the item (e.g., common, rare, legendary). 
+    * Type (enum): Categorization of the item (e.g., weapon, armor, consumable). 
+    * Rarity (enum): The rarity level of the item (e.g., common, rare, legendary). 
     * Value (double): The in-game value or cost of the item. 
     * Weight (double): The weight of the item, influencing inventory management. 
     * Durability (int or double): For items that degrade over time or with use. 
