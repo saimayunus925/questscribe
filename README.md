@@ -67,36 +67,36 @@ represent the various objects and entities in the game.
   * **Methods**
 * ###### **GAMEITEM** class
   * **Attributes**
-    * Name: The name of the item. 
-    * Description: A brief description of the item's purpose or effects. 
-    * Type: Categorization of the item (e.g., weapon, armor, consumable). 
-    * Rarity: The rarity level of the item (e.g., common, rare, legendary). 
-    * Value: The in-game value or cost of the item. 
-    * Weight: The weight of the item, influencing inventory management. 
-    * Durability: For items that degrade over time or with use. 
-    * Effect(s): Any special effects or bonuses conferred by the item.
+    * Name (string): The name of the item. 
+    * Description (string): A brief description of the item's purpose or effects. 
+    * Type (enum or string): Categorization of the item (e.g., weapon, armor, consumable). 
+    * Rarity (enum or string): The rarity level of the item (e.g., common, rare, legendary). 
+    * Value (double): The in-game value or cost of the item. 
+    * Weight (double): The weight of the item, influencing inventory management. 
+    * Durability (int or double): For items that degrade over time or with use. 
+    * Effect(s) (list of strings or enums): Any special effects or bonuses conferred by the item.
   * **Methods**
 * ###### **COMBATMOVE** class
   * **Attributes**
-    * Name: The name of the combat move. 
-    * Description: A brief description of the combat move's execution. 
-    * Type: The type of combat move (e.g., melee, ranged, special). 
-    * Damage: The amount of damage dealt by the combat move. 
-    * Accuracy: The likelihood of successfully hitting the target. 
-    * Critical Chance: The probability of landing a critical hit. 
-    * Stamina Cost: If applicable, the amount of stamina or energy required. 
-    * Effects: Any additional effects or conditions caused by the combat move.
+    * Name (string): The name of the combat move. 
+    * Description (string): A brief description of the combat move's execution. 
+    * Type (enum or string): The type of combat move (e.g., melee, ranged, special). 
+    * Damage (int): The amount of damage dealt by the combat move. 
+    * Accuracy (double): The likelihood of successfully hitting the target. 
+    * Critical Chance (double): The probability of landing a critical hit. 
+    * Stamina Cost (int): If applicable, the amount of stamina or energy required. 
+    * Effects (list of strings or enums): Any additional effects or conditions caused by the combat move.
   * **Methods**
 * ###### **ABILITY** class
   * **Attributes**
-    * Name: The name of the ability. 
-    * Description: A brief description of what the ability does. 
-    * Type: The type of ability (e.g., offensive, defensive, utility). 
-    * Cooldown: The time it takes before the ability can be used again. 
-    * Mana Cost: If applicable, the amount of mana or energy required to use the ability. 
-    * Range: The effective range of the ability. 
-    * Damage/Healing: The amount of damage dealt or healing provided. 
-    * Target(s): The targets affected by the ability (e.g., self, single target, area of effect).
+    * Name (string): The name of the ability. 
+    * Description (string): A brief description of what the ability does. 
+    * Type (enum or string): The type of ability (e.g., offensive, defensive, utility). 
+    * Cooldown (int or double): The time it takes before the ability can be used again. 
+    * Mana Cost (int): If applicable, the amount of mana or energy required to use the ability. 
+    * Range (int or double): The effective range of the ability. 
+    * Damage/Healing (int): The amount of damage dealt or healing provided. 
+    * Target(s) (*Character* object): The targets affected by the ability (e.g., self, single target, area of effect).
   * **Methods**
 
 ### 2. Functional Requirements
