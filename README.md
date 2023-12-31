@@ -5,7 +5,8 @@
 ### 1. Introduction
 
 #### 1.1 Purpose
-*State the purpose of this document and provide an overview of the software to be developed.*
+*State the purpose of this document and provide an overview of the software to be developed.*  
+
   The purpose of this document is to be a comprehensive overview of the requirements of this project. The software to be developed 
 is a text-based command-line adventure game, written in C++. The game is to have complex memorable characters and a realistic yet 
 exciting storyline. The software will have C++ classes for characters, combat moves, character personalities, items, and more. The
@@ -14,7 +15,20 @@ replay value. The characters will also change in response to significant plot po
 my primary interests - creative writing and C++ programming.
 
 #### 1.2 Scope
-Define the scope of the project, including the features and functionalities that are within and outside the project's boundaries.
+*Define the scope of the project, including the features and functionalities that are within and outside the project's boundaries.*  
+
+  This game, like many games, has several entities (characters, items, animals, etc.); these entities will be represented with 
+C++ classes. A class, as we know, is a blueprint for objects. The game will have a plot, but the plot will proceed according
+to the users' choices. For example, if the current situation is as follows - the Player character approaches a village that
+is being terrorized by an evil dragon - and the Player is given the choices of fighting the dragon, joining the dragon, or retreating,
+then each choice will make the story go differently. The game's storyline is based on my idea for a book I have been working on;
+the Player character must join my cast of characters to save the city of Ibralta (the setting of my game/story) from an evil
+ex-superhero. 
+  The characters will each be represented by a C++ Character class. Each character's personality will be represented by a C++ 
+Personality class, which will be built based on the scientifically-valid [Big 5 personality traits](https://www.psychologytoday.com/us/basics/big-5-personality-traits).
+The different character types - Hero, Villain, Antihero, Warrior, Scribe, etc - will be derived classes that inherit from the 
+Character base class. As for the Personality class, its private member variables will be scores for each of the Big 5 traits,
+which will change based on the events of the game (e.g. if a character becomes more rigid/inflexible, their openness score decreases).
 
 ### 2. Functional Requirements
 
