@@ -25,7 +25,7 @@ then each choice will make the story go differently. The game's storyline is bas
 the Player character must join my cast of characters to save the city of Ibralta (the setting of my game/story) from an evil
 ex-superhero. 
   The characters will each be represented by a C++ Character class. Each character's personality will be represented by a C++ 
-Personality class, which will be built based on the scientifically-valid [Big 5 personality traits](https://www.psychologytoday.com/us/basics/big-5-personality-traits).
+PersonalityTraits class, which will be built based on the scientifically-valid [Big 5 personality traits](https://www.psychologytoday.com/us/basics/big-5-personality-traits).
 The different character types - Hero, Villain, Antihero, Warrior, Scribe, etc - will be derived classes that inherit from the 
 Character base class. As for the Personality class, its private member variables will be scores for each of the Big 5 traits,
 which will change based on the events of the game (e.g. if a character becomes more rigid/inflexible, their openness score decreases).
@@ -40,7 +40,7 @@ represent the various objects and entities in the game.
 * ###### **CHARACTER** class
   * **Attributes**
     * Name (string): The name of the character. 
-    * Personality (*Personality* object): The personality traits of the character, represented by a *Personality* object.
+    * Personality (*PersonalityTraits* object): The personality traits of the character, represented by a *Personality* object.
     * Level (int): The level or experience of the character. 
     * Health Points (HP) - int: Represents the character's health or life. 
     * Mana (or Energy) Points - int: Represents the character's magical or special abilities. 
@@ -49,7 +49,7 @@ represent the various objects and entities in the game.
     * Inventory (linked list of *Item* objects): List of items the character is carrying. 
     * Skills/Abilities (linked list of *Ability* objects): List of abilities the character can use.
   * **Methods**
-* ###### **PERSONALITY** class (based on the Big 5 methodology for determining personalities)
+* ###### **PERSONALITYTRAITS** class (based on the Big 5 methodology for determining personalities)
   * **Attributes** (source: the previous Psychology Today link)
     * Openness score (int): a 0-10 score reflecting how open to new ideas/experiences the character is 
       * openness (to experience): a basic personality trait denoting receptivity to new ideas and new experiences
