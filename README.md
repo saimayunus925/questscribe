@@ -87,6 +87,17 @@ represent the various objects and entities in the game.
     * Stamina Cost: If applicable, the amount of stamina or energy required. 
     * Effects: Any additional effects or conditions caused by the combat move.
   * **Methods**
+* * ###### **ABILITY** class
+  * **Attributes**
+    * Name: The name of the ability. 
+    * Description: A brief description of what the ability does. 
+    * Type: The type of ability (e.g., offensive, defensive, utility). 
+    * Cooldown: The time it takes before the ability can be used again. 
+    * Mana Cost: If applicable, the amount of mana or energy required to use the ability. 
+    * Range: The effective range of the ability. 
+    * Damage/Healing: The amount of damage dealt or healing provided. 
+    * Target(s): The targets affected by the ability (e.g., self, single target, area of effect).
+  * **Methods**
 
 ### 2. Functional Requirements
 
