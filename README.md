@@ -87,7 +87,7 @@ represent the various objects and entities in the game.
     * Stamina Cost: If applicable, the amount of stamina or energy required. 
     * Effects: Any additional effects or conditions caused by the combat move.
   * **Methods**
-* * ###### **ABILITY** class
+* ###### **ABILITY** class
   * **Attributes**
     * Name: The name of the ability. 
     * Description: A brief description of what the ability does. 
