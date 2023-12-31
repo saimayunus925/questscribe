@@ -46,8 +46,8 @@ represent the various objects and entities in the game.
     * Mana (or Energy) Points - int: Represents the character's magical or special abilities. 
     * Attack Damage (int): The amount of damage the character deals. 
     * Defense (int): The ability to resist or reduce incoming damage.
-    * Inventory (linked list of *Item* objects): List of items the character is carrying. 
-    * Skills/Abilities (linked list of *Ability* objects): List of abilities the character can use.
+    * Inventory (vector of *Item* objects): List of items the character is carrying. 
+    * Skills/Abilities (vector of *Ability* objects): List of abilities the character can use.
   * **Methods**
 * ###### **PERSONALITYTRAITS** class (based on the Big 5 methodology for determining personalities)
   * **Attributes** (source: the previous Psychology Today link)

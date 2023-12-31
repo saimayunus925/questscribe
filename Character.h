@@ -10,6 +10,7 @@
 #include <vector>
 #include "PersonalityTraits.h"
 #include "Ability.h"
+#include "GameItem.h"
 using std::string, std::vector;
 
 class Character {
@@ -22,6 +23,7 @@ class Character {
         int attack_damage; // The amount of damage the character deals
         int defense; // The ability to resist or reduce incoming damage
         vector<Ability> character_abilities; // A list of the character's powers/abilities
+        vector<GameItem> inventory; // The character's inventory (list/collection of their items)
         // TODO: make Ability and GameItem and CombatMove classes, so each character can have their own sets of abilities, inventory, and moves
     public:
 };
