@@ -78,6 +78,14 @@ represent the various objects and entities in the game.
   * **Methods**
 * ###### **COMBATMOVE** class
   * **Attributes**
+    * Name: The name of the combat move. 
+    * Description: A brief description of the combat move's execution. 
+    * Type: The type of combat move (e.g., melee, ranged, special). 
+    * Damage: The amount of damage dealt by the combat move. 
+    * Accuracy: The likelihood of successfully hitting the target. 
+    * Critical Chance: The probability of landing a critical hit. 
+    * Stamina Cost: If applicable, the amount of stamina or energy required. 
+    * Effects: Any additional effects or conditions caused by the combat move.
   * **Methods**
 
 ### 2. Functional Requirements
