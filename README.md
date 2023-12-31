@@ -67,6 +67,14 @@ represent the various objects and entities in the game.
   * **Methods**
 * ###### **GAMEITEM** class
   * **Attributes**
+    * Name: The name of the item. 
+    * Description: A brief description of the item's purpose or effects. 
+    * Type: Categorization of the item (e.g., weapon, armor, consumable). 
+    * Rarity: The rarity level of the item (e.g., common, rare, legendary). 
+    * Value: The in-game value or cost of the item. 
+    * Weight: The weight of the item, influencing inventory management. 
+    * Durability: For items that degrade over time or with use. 
+    * Effect(s): Any special effects or bonuses conferred by the item.
   * **Methods**
 * ###### **COMBATMOVE** class
   * **Attributes**
