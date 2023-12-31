@@ -21,7 +21,7 @@ class Character {
         int mana_points; // MP (mana points) -> Represents the character's magical or special abilities
         int attack_damage; // The amount of damage the character deals
         int defense; // The ability to resist or reduce incoming damage
-        vector<Ability> abilities; // A list of the character's powers/abilities
+        vector<Ability> character_abilities; // A list of the character's powers/abilities
         // TODO: make Ability and GameItem and CombatMove classes, so each character can have their own sets of abilities, inventory, and moves
     public:
 };
