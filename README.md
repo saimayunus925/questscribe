@@ -65,6 +65,30 @@ represent the various objects and entities in the game.
     * Neuroticism score (int): a 0-10 score reflecting how neurotic (depressed, anxious, self-doubting, etc) the character is 
       * neuroticism: a tendency toward anxiety, depression, self-doubt, and other negative feelings
   * **Methods**
+    * _PersonalityTraits()_: default constructor, initializes all personality trait score variables to 0
+    * _PersonalityTraits(int O, int C, int E, int A, int N)_: parametrized constructor
+      * passes in personality trait scores and initializes each variable to its corresponding parameter 
+      * (e.g. O = openness, C = conscientiousness, E = extroversion, etc)
+    * _void set_openness_score(int new_openness_score)_: sets openness score to 'new_openness_score' parameter 
+    * _void set_conscientiousness_score(int new_conscientiousness_score)_: sets conscientiousness score to 'new_conscientiousness_score' parameter 
+    * _void set_extroversion_score(int new_extroversion_score)_: sets extroversion score to 'new_extroversion_score' parameter 
+    * _void set_agreeableness_score(int new_agreeableness_score)_: sets agreeableness score to 'new_agreeableness_score' parameter 
+    * _void set_neuroticism_score(int new_neuroticism_score)_: sets neuroticism score to 'new_neuroticism_score' parameter
+    * _void increment_openness_score()_: increments openness score by 1
+    * _void decrement_openness_score()_: decrements openness score by 1
+    * _void increment_conscientiousness_score()_: increments conscientiousness score by 1 
+    * _void decrement_conscientiousness_score()_: decrements conscientiousness score by 1 
+    * _void increment_extroversion_score()_: increments extroversion score by 1 
+    * _void decrement_extroversion_score()_: decrements extroversion score by 1 
+    * _void increment_agreeableness_score()_: increments agreeableness score by 1 
+    * _void decrement_agreeableness_score()_: decrements agreeableness score by 1 
+    * _void increment_neuroticism_score()_: increments neuroticism score by 1 
+    * _void decrement_neuroticism_score()_: decrements neuroticism score by 1
+    * _int get_openness_score()_: returns current openness score 
+    * _int get_conscientiousness_score()_: returns current conscientiousness score 
+    * _int get_extroversion_score()_: returns current extroversion score 
+    * _int get_agreeableness_score()_: returns current agreeableness score 
+    * _int get_neuroticism_score()_: returns current neuroticism score
 * ###### **GAMEITEM** class
   * **Attributes**
     * Name (string): The name of the item. 
