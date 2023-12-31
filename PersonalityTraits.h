@@ -23,6 +23,17 @@ class PersonalityTraits {
         void set_extroversion_score(int new_extroversion_score); // set extroversion score to 'new_extroversion_score' parameter
         void set_agreeableness_score(int new_agreeableness_score); // set agreeableness score to 'new_agreeableness_score' parameter
         void set_neuroticism_score(int new_neuroticism_score); // set neuroticism score to 'new_neuroticism_score' parameter
+        /* setter/mutator functions that increment/decrement the object variables by 1 point only */
+        void increment_openness_score(); // increment openness score by 1
+        void decrement_openness_score(); // decrement openness score by 1
+        void increment_conscientiousness_score(); // increment conscientiousness score by 1
+        void decrement_conscientiousness_score(); // decrement conscientiousness score by 1
+        void increment_extroversion_score(); // increment extroversion score by 1
+        void decrement_extroversion_score(); // decrement extroversion score by 1
+        void increment_agreeableness_score(); // increment agreeableness score by 1
+        void decrement_agreeableness_score(); // decrement agreeableness score by 1
+        void increment_neuroticism_score(); // increment neuroticism score by 1
+        void decrement_neuroticism_score(); // decrement neuroticism score by 1
 };
 
 
