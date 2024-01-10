@@ -22,3 +22,25 @@ PersonalityTraits::PersonalityTraits(int O, int C, int E, int A, int N) {
     agreeableness_score = A;
     neuroticism_score = N;
 }
+
+/* SETTER/MUTATOR FUNCTIONS FOR EACH BIG 5 TRAIT */
+
+void PersonalityTraits::set_openness_score(int new_openness_score) {
+    openness_score = new_openness_score; // set openness score to 'new_openness_score' parameter
+}
+
+void PersonalityTraits::set_conscientiousness_score(int new_conscientiousness_score) {
+    conscientiousness_score = new_conscientiousness_score; // set conscientiousness score to 'new_conscientiousness_score' parameter
+}
+
+void PersonalityTraits::set_extroversion_score(int new_extroversion_score) {
+    extroversion_score = new_extroversion_score; // set extroversion score to 'new_extroversion_score' parameter
+}
+
+void PersonalityTraits::set_agreeableness_score(int new_agreeableness_score) {
+    agreeableness_score = new_agreeableness_score; // set agreeableness score to 'new_agreeableness_score' parameter
+}
+
+void PersonalityTraits::set_neuroticism_score(int new_neuroticism_score) {
+    neuroticism_score = new_neuroticism_score; // set neuroticism score to 'new_neuroticism_score' parameter
+}
