@@ -63,6 +63,10 @@ represent the various objects and entities in the game.
     * Inventory (vector of *Item* objects): List of items the character is carrying. 
     * Skills/Abilities (vector of *Ability* objects): List of abilities the character can use.
   * **Methods**
+    * void create_personality(int openness, int conscientiousness, int extroversion, int agreeableness, int neuroticism)
+      * creates character's Big 5 personality based on passed-in parameters, and stores the info in character's 'Personality' attribute
+    * void change_trait(char trait, int new_score)
+      * changes one of the character's Big 5 scores (determined by 'trait' variable, e.g. if trait == 'E', we'll change our character's extroversion score) to the given 'new_score' parameter
 * ###### **PERSONALITYTRAITS** class (based on the Big 5 methodology for determining personalities)
   * **Attributes** (source: the previous Psychology Today link)
     * Openness score (int): a 0-10 score reflecting how open to new ideas/experiences the character is 

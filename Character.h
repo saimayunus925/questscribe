@@ -26,6 +26,9 @@ class Character {
         vector<GameItem> inventory; // The character's inventory (list/collection of their items)
         // TODO: make Ability and GameItem and CombatMove classes, so each character can have their own sets of abilities, inventory, and moves
     public:
+        // TODO - make Character methods
+        void create_personality(int openness, int conscientiousness, int extroversion, int agreeableness, int neuroticism); // creates character's Big 5 personality based on passed-in parameters, and stores the info in character's 'Personality' attribute
+        void change_trait(char trait, int new_score); // changes one of the character's Big 5 scores (determined by 'trait' variable, e.g. if trait == 'E', we'll change our character's extroversion score) to the given 'new_score' parameter
 };
 
 
