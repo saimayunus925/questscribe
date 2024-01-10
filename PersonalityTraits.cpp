@@ -44,3 +44,45 @@ void PersonalityTraits::set_agreeableness_score(int new_agreeableness_score) {
 void PersonalityTraits::set_neuroticism_score(int new_neuroticism_score) {
     neuroticism_score = new_neuroticism_score; // set neuroticism score to 'new_neuroticism_score' parameter
 }
+
+/* FUNCTIONS TO INCREMENT/DECREMENT EACH BIG 5 TRAIT SCORE BY 1 */
+
+void PersonalityTraits::increment_openness_score() {
+    openness_score++; // increment/increase openness score by 1
+}
+
+void PersonalityTraits::increment_conscientiousness_score() {
+    conscientiousness_score++; // increment/increase conscientiousness score by 1
+}
+
+void PersonalityTraits::increment_extroversion_score() {
+    extroversion_score++; // increment/increase extroversion score by 1
+}
+
+void PersonalityTraits::increment_agreeableness_score() {
+    agreeableness_score++; // increment/increase agreeableness score by 1
+}
+
+void PersonalityTraits::increment_neuroticism_score() {
+    neuroticism_score++; // increment/increase neuroticism score by 1
+}
+
+void PersonalityTraits::decrement_openness_score() {
+    openness_score--; // decrement/decrease openness score by 1
+}
+
+void PersonalityTraits::decrement_conscientiousness_score() {
+    conscientiousness_score--; // decrement/decrease conscientiousness score by 1
+}
+
+void PersonalityTraits::decrement_extroversion_score() {
+    extroversion_score--; // decrement/decrease extroversion score by 1
+}
+
+void PersonalityTraits::decrement_agreeableness_score() {
+    agreeableness_score--; // decrement/decrease agreeableness score by 1
+}
+
+void PersonalityTraits::decrement_neuroticism_score() {
+    neuroticism_score--; // decrement/decrease neuroticism score by 1
+}
