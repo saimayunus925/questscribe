@@ -37,6 +37,13 @@ represent the various objects and entities in the game.
 
 ##### 1.2.2 Inclusions:
 
+* ###### **GAMELIST** class (singly-linked-list class for storing lists of items (inventory, list of skills, etc))
+  * **Attributes**
+    * _head_ptr_: the head pointer of the node
+  * **Methods**
+  * there will also be a separate template class for Nodes
+    * Node class attributes: _data_ (the data being stored in the node), _next_node_ (reference to the next node after this one in the list)
+    * Node class methods: constructor (for initializing the data and next node), both properties/variables (data and next_node) are public since we need to change them to traverse/update the list
 * ###### **CHARACTER** class
   * **Attributes**
     * Name (string): The name of the character. 
