@@ -41,6 +41,13 @@ represent the various objects and entities in the game.
   * **Attributes**
     * _head_ptr_: the head pointer of the node
   * **Methods**
+    * void print_list(): traverses list, prints each item
+    * void add_to_end(T new_data): creates new node with passed-in data, appends that node to the end of the list
+    * ItemNode <T> is_in_list(ItemNode <T> current_node): searches for 'current_node' in list, returns ptr to current node if found and NULL if not
+    * void add_to_start(T new_data): creates new node with passed-in data, appends that node to the beginning of the list
+    * void insert_after(ItemNode <T> current_node, T new_data): creates new node with passed-in data, searches for 'current_node' in list, inserts new node after current node
+    * void update_node(ItemNode <T> current_node, T new_data): searches for 'current_node' in list, updates the node's data with 'new_data' parameter
+    * T delete_node(ItemNode <T> current_node): searches for 'current_node' in list, deletes it from the list and frees the memory, returns the node data
   * there will also be a separate template class for Nodes
     * Node class attributes: _data_ (the data being stored in the node), _next_node_ (reference to the next node after this one in the list)
     * Node class methods: constructor (for initializing the data and next node), both properties/variables (data and next_node) are public since we need to change them to traverse/update the list

@@ -5,7 +5,7 @@
 #ifndef QUESTSCRIBE_ITEMNODE_H
 #define QUESTSCRIBE_ITEMNODE_H
 
-template<class typeName> // this is a template class, so that this node can store multiple types of data instead of just being an int node or a float node or so on
+template<class typeName> // this is a template class, so nodes of this class should be able to store data of any type
 class ItemNode {
 public:
     typeName data; // the data that the node stores (it's whatever data type we initialize the node to hold)
