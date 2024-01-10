@@ -45,6 +45,28 @@ void PersonalityTraits::set_neuroticism_score(int new_neuroticism_score) {
     neuroticism_score = new_neuroticism_score; // set neuroticism score to 'new_neuroticism_score' parameter
 }
 
+/* GETTER/ACCESSOR FUNCTIONS FOR EACH BIG 5 TRAIT */
+
+int PersonalityTraits::get_openness_score() {
+    return openness_score; // return current openness score
+}
+
+int PersonalityTraits::get_conscientiousness_score() {
+    return conscientiousness_score; // return current conscientiousness score
+}
+
+int PersonalityTraits::get_extroversion_score() {
+    return extroversion_score; // return current extroversion score
+}
+
+int PersonalityTraits::get_agreeableness_score() {
+    return agreeableness_score; // return current agreeableness score
+}
+
+int PersonalityTraits::get_neuroticism_score() {
+    return neuroticism_score; // return current neuroticism score
+}
+
 /* FUNCTIONS TO INCREMENT/DECREMENT EACH BIG 5 TRAIT SCORE BY 1 */
 
 void PersonalityTraits::increment_openness_score() {
